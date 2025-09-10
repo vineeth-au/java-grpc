@@ -2,7 +2,6 @@ package com.practice;
 
 import com.practice.Profile.EyeColor;
 import java.util.List;
-import java.util.Random;
 
 public class ProfileInfo {
 
