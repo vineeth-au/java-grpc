@@ -1,1 +1,3 @@
-# java-grpc
+# java-gRPC
+
+Sample gRPC project
