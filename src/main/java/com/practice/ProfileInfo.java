@@ -1,6 +1,7 @@
 package com.practice;
 
-import com.practice.Profile.EyeColor;
+import com.proto.profile.Profile;
+import com.proto.profile.Profile.EyeColor;
 import java.util.List;
 
 public class ProfileInfo {
@@ -13,7 +14,7 @@ public class ProfileInfo {
         .setIsProfileViewed(false)
         .setHeight((float) (Math.random() * (190 - 160) + 160))
         .addAllPhoneNumbers(List.of("(123) 456-7890", "(987) 654-3211"))
-        .setEyeColor(EyeColor.UNKNOWN_EYE_COLOR)
+        .setEyeColor(EyeColor.BLACK)
         .build();
   }
 

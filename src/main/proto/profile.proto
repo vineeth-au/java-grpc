@@ -1,12 +1,12 @@
 syntax = "proto3";
 
 option java_multiple_files = true;
-option java_package = "com.practice";
+option java_package = "com.proto.profile";
 
 package proto.profile;
 
 message Profile {
-  int32 age = 1;
+  sint32 age = 1;
   string first_name = 2;
   string last_name = 3;
   bytes small_picture = 4;
