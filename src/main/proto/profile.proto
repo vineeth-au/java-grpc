@@ -1,12 +1,11 @@
 syntax = "proto3";
-//import "date.proto";
 
 option java_multiple_files = true;
 option java_package = "com.practice";
 
-package proto.person;
+package proto.profile;
 
-message Person {
+message Profile {
   int32 age = 1;
   string first_name = 2;
   string last_name = 3;
@@ -14,14 +13,11 @@ message Person {
   bool is_profile_viewed = 5;
   float height = 6;
   repeated string phone_numbers = 7;
-
   enum EyeColor {
     UNKNOWN_EYE_COLOR = 0;
     BLACK = 1;
     BROWN = 2;
     GREEN = 3;
   }
-
   EyeColor eye_color = 8;
-  //  Date birthday = 9;
 }
